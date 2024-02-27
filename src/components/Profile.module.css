@@ -1,0 +1,155 @@
+@font-face {
+    font-family: normal;
+    src: url('../assets/fonts/helvetica.ttf');
+}
+
+@font-face {
+    font-family: bold;
+    src: url('../assets/fonts/Roboto-Bold.ttf');
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    font-family: bold;
+    padding-bottom: 3%;
+}
+
+.headProfile {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.coverPhoto {
+    width: 100%;
+    height: 80%;
+}
+
+.profilePhoto {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    height: 150px;
+    border: 4px solid white;
+    border-radius: 150px;
+    background-color: white;
+}
+
+#cameraIcon {
+    bottom: 15%;
+    right: 1%;
+    width: 17px;
+    border-radius: 17px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border: 2px solid white;
+    background-color: rgb(205, 198, 198);
+    position: absolute;
+}
+
+#cameraIconCover {
+    bottom: 25%;
+    right: 5%;
+    width: 15px;
+    border-radius: 15px;
+    height: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: rgb(205, 198, 198);
+    position: absolute;
+}
+
+.nameContent {
+    margin-left: 2%;
+}
+
+.nameFB {
+    gap: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.nameFB h2 {
+    font-size: 22pt;
+}
+
+.nameFB p {
+    font-size: 12pt;
+    font-family: normal;
+}
+
+#followersH{
+    font-size:10pt;
+}
+
+.friendList {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.friendProfile {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#moto {
+    margin-top: 2%;
+    font-size: 12pt;
+    font-family: normal;
+}
+
+.btnCreatereel {
+    margin-top: 10%;
+    background-color: #0866ff;
+    border: none;
+    color: white;
+    padding: 2%;
+    width: 95%;
+    font-size: 15pt;
+    font-family: bold;
+    border-radius: 5px;
+}
+
+.lowerBtn {
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.lowerBtn button {
+    border: none;
+    padding: 2%;
+    width: 200px;
+    border-radius: 5px;
+    font-family: bold;
+    background-color: rgb(235, 230, 230);
+}
+
+#dots {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(235, 230, 230);
+}
+
+
