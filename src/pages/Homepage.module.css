@@ -1,7 +1,128 @@
+@font-face {
+    font-family: normal;
+    src: url('../assets/fonts/helvetica.ttf');
+}
+
+@font-face {
+    font-family: bold;
+    src: url('../assets/fonts/Roboto-Bold.ttf');
+}
+
+
+
 .container {
     width: 100%;
     overflow-x: hidden;
-    height: 100vh;
+    height: 100%;
+    display: flex;
+    font-family: normal;
+    flex-direction: column;
+}
+
+.post {
     display: flex;
     flex-direction: column;
+}
+
+
+.sections {
+    height: 10px;
+    color: transparent;
+    background-color: rgb(219, 218, 218);;
+}
+
+.head {
+    display: flex;
+    margin-top: 2%;
+    padding-left: 2%;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical h2 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 11pt;
+}
+
+.vertical p {
+    margin: 0;
+    font-size: 8pt;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    padding-top: 2%;
+    padding-left: 2%;
+    flex-direction: column;
+}
+
+.body img {
+    width: 99%;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    border-top: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+.horizontal {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bodyList {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.footerMenu {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+.verticalMenuIcons {
+    width: 50px;
+    display: flex;
+    font-size: 10pt;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticalMenuIcons  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }

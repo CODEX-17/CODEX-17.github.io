@@ -13,11 +13,11 @@ const Profile = () => {
         <div className={style.nameContent}>
             <div className={style.nameFB}>
                 <h2>Rumar Pamparo</h2>
-                <p>(Main Account)</p>
+                <p>(Mimay)</p>
             </div>
             <div className={style.nameFB}>
                 <h2 id={style.followersH}></h2>
-                <p><b>605</b> mutual friends</p>
+                <p><b>1.2k</b> mutual friends</p>
             </div>
             <p id={style.moto}>The more you know the more you realized you dont know</p>
         </div>

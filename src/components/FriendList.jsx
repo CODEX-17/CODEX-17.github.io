@@ -6,7 +6,7 @@ const FriendList = () => {
     <div className={style.container}>
         <div className={style.content}>
             <h2>Friends</h2>
-            <p>626 mutual friends</p>
+            <p>1.2k mutual friends</p>
 
             <div className={style.horizontal}>
                 <div className={style.friendsCard}>
@@ -15,26 +15,26 @@ const FriendList = () => {
                 </div>
                 <div className={style.friendsCard}>
                     <img src="/cover.jpg" className={style.imgFriends}/>
-                    <p>Rumar Pamparo</p>
+                    <p>Tres Cuttie</p>
                 </div>
                 <div className={style.friendsCard}>
                     <img src="/cover.jpg" className={style.imgFriends}/>
-                    <p>Rumar Pamparo</p>
+                    <p>Rumar Mabait</p>
                 </div>
             </div>
 
             <div className={style.horizontal}>
                 <div className={style.friendsCard}>
                     <img src="/cover.jpg" className={style.imgFriends}/>
-                    <p>Rumar Pamparo</p>
+                    <p>Jaimee Topak</p>
                 </div>
                 <div className={style.friendsCard}>
                     <img src="/cover.jpg" className={style.imgFriends}/>
-                    <p>Rumar Pamparo</p>
+                    <p>Mimay</p>
                 </div>
                 <div className={style.friendsCard}>
                     <img src="/cover.jpg" className={style.imgFriends}/>
-                    <p>Rumar Pamparo</p>
+                    <p>Jaimee Pamparo</p>
                 </div>
             </div>
 
