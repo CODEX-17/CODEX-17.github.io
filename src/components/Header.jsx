@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={style.container}>
           <IoChevronBackSharp size={20} />
-          <p>Jaimee Mamuyac</p>
+          <p>Jaimee Sauli Mamuyac</p>
           <FaSearch size={20} style={{ paddingRight: '20px' }}/>
     </div>
   )

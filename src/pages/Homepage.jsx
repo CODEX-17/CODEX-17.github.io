@@ -65,20 +65,63 @@ const Homepage = () => {
                   <div className={style.horizontal}>
                     <img src='/cover.jpg'/>
                     <div className={style.vertical}>
-                      <h2>Rumar Pamparo <BiSolidRightArrow size={10} color='gray'/> Rumar Pamparo</h2>
-                      <p>Feb 16 <FaUserFriends/></p>
+                      <h2>Jaimee Sauli Mamuyac <BiSolidRightArrow size={10} color='gray'/> Rumar Pamparo</h2>
+                      <p>Sep 5 2023<FaUserFriends/></p>
                     </div>
                   </div>
                   <BsThreeDots style={{ marginRight: '10px' }}/>
                 </div>
                 <div className={style.body}>
+                  <h2>Time since we are official:</h2>
                   <p>
                     {count.months} months, {count.days} days, {count.hours} hours, {count.minutes} minutes, {count.seconds} seconds
                   </p>
+                  <b>Since you answer me.</b> Its is real-time date
+                  <br/>
+                  <br/>
+                  <div className={style.footer}>
+                    <div className={style.horizontal}>
+                      <GrLike/>
+                      Like
+                    </div>
+                    <div className={style.horizontal}>
+                      <FaRegComment/>
+                      Comment
+                    </div>
+                    <div className={style.horizontal}>
+                      <PiMessengerLogo/>
+                      Send
+                    </div>
+                    <div className={style.horizontal}>
+                      <PiShareFatLight/>
+                      Share
+                    </div>
 
+                  </div>
+                </div>
+            </div>
+
+            <div className={style.post}>
+                <div className={style.sections}>sad</div>
+                <div className={style.head}>
+                  <div className={style.horizontal}>
+                    <img src='/cover.jpg'/>
+                    <div className={style.vertical}>
+                      <h2>Jaimee Sauli Mamuyac <BiSolidRightArrow size={10} color='gray'/> Rumar Pamparo</h2>
+                      <p>Sep 5 2023<FaUserFriends/></p>
+                    </div>
+                  </div>
+                  <BsThreeDots style={{ marginRight: '10px' }}/>
+                </div>
+                <div className={style.body}>
+                  <h2>The first time we talk:</h2>
                   <p>
                     {sinceFirst.months} months, {sinceFirst.days} days, {sinceFirst.hours} hours, {sinceFirst.minutes} minutes, {sinceFirst.seconds} seconds
                   </p>
+                  <b>Since you reply on me.</b> Its is real-time date
+                  <br/>
+                  <br/>
+                  tagal tagal nadin pala no.
                   <div className={style.footer}>
                     <div className={style.horizontal}>
                       <GrLike/>
