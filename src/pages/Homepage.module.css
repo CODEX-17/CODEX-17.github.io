@@ -77,7 +77,12 @@
 
 .body img {
     width: 99%;
+    margin-top: 2%;
     border-radius: 10px;
+}
+
+.body video {
+    margin-top: 2%;
 }
 
 .footer {

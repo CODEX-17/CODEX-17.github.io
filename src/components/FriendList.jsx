@@ -10,30 +10,30 @@ const FriendList = () => {
 
             <div className={style.horizontal}>
                 <div className={style.friendsCard}>
-                    <img src="/cover.jpg" className={style.imgFriends}/>
+                    <img src="/rumar1.jpg" className={style.imgFriends}/>
                     <p>Rumar Pamparo</p>
                 </div>
                 <div className={style.friendsCard}>
-                    <img src="/cover.jpg" className={style.imgFriends}/>
+                    <img src="/tres.jpg" className={style.imgFriends}/>
                     <p>Tres Cuttie</p>
                 </div>
                 <div className={style.friendsCard}>
-                    <img src="/cover.jpg" className={style.imgFriends}/>
+                    <img src="/rumar2.jpg" className={style.imgFriends}/>
                     <p>Rumar Mabait</p>
                 </div>
             </div>
 
             <div className={style.horizontal}>
                 <div className={style.friendsCard}>
-                    <img src="/cover.jpg" className={style.imgFriends}/>
+                    <img src="/wabi.jpg" className={style.imgFriends}/>
                     <p>Jaimee Topak</p>
                 </div>
                 <div className={style.friendsCard}>
-                    <img src="/cover.jpg" className={style.imgFriends}/>
+                    <img src="/wabi1.jpg" className={style.imgFriends}/>
                     <p>Mimay</p>
                 </div>
                 <div className={style.friendsCard}>
-                    <img src="/cover.jpg" className={style.imgFriends}/>
+                    <img src="/wabi2.jpg" className={style.imgFriends}/>
                     <p>Jaimee Pamparo</p>
                 </div>
             </div>

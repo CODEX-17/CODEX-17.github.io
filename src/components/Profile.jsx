@@ -7,19 +7,19 @@ const Profile = () => {
   return (
     <div className={style.container}>
         <div className={style.headProfile}>
-            <img src='/rumar.jpg' className={style.profilePhoto}/>
-            <img src='/cover.jpg' className={style.coverPhoto}/>
+            <img src='/dp.jpg' className={style.profilePhoto}/>
+            <img src='/fb_cover.jpg' className={style.coverPhoto}/>
         </div>
         <div className={style.nameContent}>
             <div className={style.nameFB}>
-                <h2>Rumar Pamparo</h2>
+                <h2>Jaimee Mamuyac</h2>
                 <p>(Mimay)</p>
             </div>
             <div className={style.nameFB}>
                 <h2 id={style.followersH}></h2>
                 <p><b>1.2k</b> mutual friends</p>
             </div>
-            <p id={style.moto}>The more you know the more you realized you dont know</p>
+            <p id={style.moto}>Ako GIRLFRIEND kaya ako lagi tama!!</p>
         </div>
         <div className={style.lowerBtn}>
             <button><BsPersonCheckFill/> Friends</button>

@@ -17,10 +17,10 @@ const Info = () => {
         <div className={style.infoLayout}>
             <h2>Details</h2>
             <p><FaHouse size={15} color='gray'/> Lives in <b>Navarro, Cavite</b></p>
-            <p><MdFamilyRestroom size={15} color='gray'/> Spouse of <b>Student</b></p>
+            <p><MdFamilyRestroom size={15} color='gray'/> Spouse of <b>Rumar Pamparo</b></p>
             <p><FaFaceAngry size={15} color='gray'/> Certified <b>Mood Swing</b></p>
-            <p><FaHeart size={15} color='gray'/> In a relationship with <b>Navarro, Cavite</b></p>
-            <p><MdSchool size={18} color='gray'/> Studied at <b>Cavite State University - CCAT</b></p>
+            <p><FaHeart size={15} color='gray'/> In a relationship with <b>Rumar Mabait</b></p>
+            <p><MdSchool size={18} color='gray'/> Studied at <b>Edi Sa Puso Ni Rumar</b></p>
         </div>
     </div>
   )
